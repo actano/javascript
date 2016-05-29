@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-actano",
+  "version": "0.5.0",
+  "author": "Actano GmbH (https://rplan.com/)",
+  "license": "MIT",
+  "description": "Beautiful Javascript code at Actano",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/actano/javascript.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "actano",
+    "styleguide"
+  ],
+  "dependencies": {
+    "eslint-config-airbnb": "^9.0.1"
+  },
+  "peerDependencies": {
+    "eslint": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^1.2.2",
+    "eslint-plugin-import": "^1.8.0",
+    "eslint-plugin-react": "^5.1.1"
+  }
+}
