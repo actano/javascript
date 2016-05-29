@@ -22,3 +22,29 @@ Create an `.eslintrc.json` with this content:
     "extends": "actano"
 }
 ```
+
+## Deviations from Airbnb
+
+We are adopting most of the rules from Airbnb. Please [check out their styleguide](https://github.com/airbnb/javascript) to get the full picture.
+
+We do have different opinions on these topics:
+
+### Semicolons
+
+They are [not needed](https://www.youtube.com/watch?v=gsfbh17Ax9I) and code looks better without them. eslint: [`semi`](http://eslint.org/docs/rules/semi)
+
+### Underscores in function names
+
+We use leading underscores to express that a function is private. eslint: [`no-underscore-dangle`](http://eslint.org/docs/rules/no-underscore-dangle)
+
+### Constant conditions
+
+When using generators, `while (true)` loops make sense. eslint: [`no-constant-condition`](http://eslint.org/docs/rules/no-constant-condition)
+
+### Function calls before definition
+
+Classes read better if private methods are defined below their first usage. Tests read better when all helper functions are defined at the bottom. eslint: [`no-use-before-define`](http://eslint.org/docs/rules/no-use-before-define)
+
+### Iterators
+
+We want to use generators. eslint: [`no-iterator`](http://eslint.org/docs/rules/no-iterator)
