@@ -19,7 +19,7 @@ Create an `.eslintrc.json` with this content:
 
 ```javascript
 {
-    "extends": "actano"
+  "extends": "actano"
 }
 ```
 
