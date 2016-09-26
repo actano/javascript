@@ -23,6 +23,17 @@ Create an `.eslintrc.json` with this content:
 }
 ```
 
+You might need to allow importing `devDependencies` in your test files by specifying them as a glob pattern ([details](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-extraneous-dependencies.md#options)):
+
+```javascript
+{
+    "extends": "actano",
+    "rules": {
+      "import/no-extraneous-dependencies": ["error", {"devDependencies": ["**/*.unit.js"]}]
+    }
+}
+```
+
 ## Deviations from Airbnb
 
 We are adopting most of the rules from Airbnb. Please [check out their styleguide](https://github.com/airbnb/javascript) to get the full picture.
