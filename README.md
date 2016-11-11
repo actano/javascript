@@ -15,23 +15,19 @@ Install this package and all it's peer dependencies. Unfortunately, [they cannot
 npm install --save-dev eslint-config-actano eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y eslint
 ```
 
-Create an `.eslintrc.json` with this content:
+Create an `.eslintrc.yml` with this content:
 
-```javascript
-{
-  "extends": "actano"
-}
+```yml
+extends: actano
 ```
 
-You might need to allow importing `devDependencies` in your test files by specifying them as a glob pattern ([details](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-extraneous-dependencies.md#options)):
+You might need enable the mocha context and allow having `no-unused-expression` in your test files by configuring this in a separate `.eslintrc.yml` inside your test directory:
 
-```javascript
-{
-    "extends": "actano",
-    "rules": {
-      "import/no-extraneous-dependencies": ["error", {"devDependencies": ["**/*.unit.js"]}]
-    }
-}
+```yml
+env:
+    mocha: true
+rules:
+    no-unused-expressions: off
 ```
 
 ## Deviations from Airbnb
