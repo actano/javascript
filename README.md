@@ -59,3 +59,7 @@ Classes read better if private methods are defined below their first usage. Test
 ### Iterators
 
 We want to use generators. eslint: [`no-iterator`](http://eslint.org/docs/rules/no-iterator)
+
+### ForOfStatement
+
+`for .. of` loops provide an easy way to iterate through iterators. eslint: [`no-restricted-syntax`](http://eslint.org/docs/rules/no-restricted-syntax)
