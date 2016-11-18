@@ -12,5 +12,6 @@ module.exports = {
         "no-use-before-define": "off",
         "no-iterator": "off",
         "no-restricted-syntax": ["off", "ForOfStatement"],
+        "arrow-parens": ["error", "always"],
     }
 }
