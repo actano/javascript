@@ -48,10 +48,6 @@ We use leading underscores to express that a function is private. eslint: [`no-u
 
 When using generators, `while (true)` loops make sense. eslint: [`no-constant-condition`](http://eslint.org/docs/rules/no-constant-condition)
 
-### Function calls before definition
-
-Classes read better if private methods are defined below their first usage. Tests read better when all helper functions are defined at the bottom. eslint: [`no-use-before-define`](http://eslint.org/docs/rules/no-use-before-define)
-
 ### Iterators
 
 We want to use generators. eslint: [`no-iterator`](http://eslint.org/docs/rules/no-iterator)
