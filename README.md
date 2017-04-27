@@ -55,3 +55,7 @@ We want to use generators. eslint: [`no-iterator`](http://eslint.org/docs/rules/
 ### ForOfStatement
 
 `for .. of` loops provide an easy way to iterate through iterators. eslint: [`no-restricted-syntax`](http://eslint.org/docs/rules/no-restricted-syntax)
+
+### Parentheses around function arguments in arrow functions
+
+We always want to use parentheses around function arguments in arrow functions to make it obvious what the function arguments are, even if it is just one argument
