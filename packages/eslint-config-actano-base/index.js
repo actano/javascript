@@ -1,15 +1,11 @@
-module.exports = {
-    "env": {
-        "browser": true
-    },
+import commonConfig from '../../common/config'
+
+module.exports = Object.assign(
+  {},
+  commonConfig,
+  {
     "extends": [
-        "eslint-config-airbnb-base"
-    ].map(require.resolve),
-    "rules": {
-        "semi": ["error", "never"],
-        "no-underscore-dangle": "off",
-        "no-constant-condition": "off",
-        "no-iterator": "off",
-        "no-restricted-syntax": ["off", "ForOfStatement"],
-    }
-}
+      "eslint-config-airbnb-base"
+    ].map(require.resolve)
+  }
+)

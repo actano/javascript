@@ -1,6 +1,11 @@
-module.exports = {
+import commonConfig from '../../common/config'
+
+module.exports = Object.assign(
+  {},
+  commonConfig,
+  {
     "extends": [
-        "eslint-config-airbnb",
-        "eslint-config-actano-base"
+      "eslint-config-airbnb"
     ].map(require.resolve)
-}
+  }
+)
