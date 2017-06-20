@@ -1,11 +1,15 @@
-var commonConfig = require('../../common/config')
-
-module.exports = Object.assign(
-  {},
-  commonConfig,
-  {
-    "extends": [
-      "eslint-config-airbnb"
-    ].map(require.resolve)
+module.exports = {
+  "env": {
+    "browser": true
+  },
+  "extends": [
+    "eslint-config-airbnb"
+  ].map(require.resolve),
+  "rules": {
+    "semi": ["error", "never"],
+    "no-underscore-dangle": "off",
+    "no-constant-condition": "off",
+    "no-iterator": "off",
+    "no-restricted-syntax": ["off", "ForOfStatement"]
   }
-)
+}
