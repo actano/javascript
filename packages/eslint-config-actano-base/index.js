@@ -3,7 +3,7 @@ module.exports = {
         "browser": true
     },
     "extends": [
-      "eslint-config-airbnb"
+        "eslint-config-airbnb-base"
     ].map(require.resolve),
     "rules": {
         "semi": ["error", "never"],
