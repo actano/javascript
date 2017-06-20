@@ -1,4 +1,4 @@
-import commonConfig from '../../common/config'
+var commonConfig = require('../../common/config')
 
 module.exports = Object.assign(
   {},
