@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-actano",
-  "version": "7.0.0",
+  "version": "7.1.0",
   "author": "Actano GmbH (https://rplan.com/)",
   "license": "MIT",
   "description": "Beautiful Javascript code at Actano",
@@ -16,15 +16,15 @@
     "styleguide"
   ],
   "dependencies": {
-    "eslint-config-airbnb": "^15.0.1"
+    "eslint-config-airbnb": "^15.1.0"
   },
   "engines": {
     "node": ">= 4"
   },
   "peerDependencies": {
-    "eslint": "^3.19.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^5.0.1",
-    "eslint-plugin-react": "^7.0.1"
+    "eslint": "^4.3.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0"
   }
 }
