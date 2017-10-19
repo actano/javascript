@@ -7,7 +7,7 @@ module.exports = {
   ].map(require.resolve),
   "rules": {
     "semi": ["error", "never"],
-    "func-names": ["error", "never"],
+    "func-names": "off",
     "no-underscore-dangle": "off",
     "no-constant-condition": "off",
     "no-iterator": "off",
