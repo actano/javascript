@@ -9,7 +9,7 @@ This package provides Actano's .eslintrc.json as an extensible shared config. It
 
 Our default export contains all of our ESLint rules, including ECMAScript 6+ and React. It requires `eslint`, `eslint-plugin-import`, `eslint-plugin-react`, and `eslint-plugin-jsx-a11y`.
 
-Install this package and all it's peer dependencies. Unfortunately, [they cannot be normal dependencies](https://github.com/eslint/eslint/issues/2518).
+Install this package and all its peer dependencies. Unfortunately, [they cannot be normal dependencies](https://github.com/eslint/eslint/issues/2518). Please consult the `package.json` for correct version information of the peer dependencies.
 
 ```bash
 yarn add --dev eslint-config-actano eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y eslint
