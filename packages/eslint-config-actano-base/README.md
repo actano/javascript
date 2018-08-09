@@ -12,7 +12,7 @@ Our default export contains all of our ESLint rules, including ECMAScript 6+. It
 Install this package and all it's peer dependencies. Unfortunately, [they cannot be normal dependencies](https://github.com/eslint/eslint/issues/2518).
 
 ```bash
-npm install --save-dev eslint-config-actano eslint-plugin-import
+yarn add --dev eslint-config-actano eslint-plugin-import
 ```
 
 Create an `.eslintrc.yml` with this content:
