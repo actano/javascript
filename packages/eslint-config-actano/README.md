@@ -40,6 +40,10 @@ We do have different opinions on these topics:
 
 They are [not needed](https://www.youtube.com/watch?v=gsfbh17Ax9I) and code looks better without them. eslint: [`semi`](http://eslint.org/docs/rules/semi)
 
+### Function names
+
+Allow function expressions without a name. eslint: [`func-names`](https://eslint.org/docs/rules/func-names)
+
 ### Underscores in function names
 
 We use leading underscores to express that a function is private. eslint: [`no-underscore-dangle`](http://eslint.org/docs/rules/no-underscore-dangle)
