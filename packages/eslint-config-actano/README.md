@@ -59,3 +59,7 @@ We want to use generators. eslint: [`no-iterator`](http://eslint.org/docs/rules/
 ### ForOfStatement
 
 `for .. of` loops provide an easy way to iterate through iterators. eslint: [`no-restricted-syntax`](http://eslint.org/docs/rules/no-restricted-syntax)
+
+### Arrow functions
+
+We want to not be forced how are writing our arrow function bodies. eslint: [`implicit-arrow-linebreak`](https://eslint.org/docs/rules/implicit-arrow-linebreak)
