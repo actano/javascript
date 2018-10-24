@@ -11,6 +11,7 @@ module.exports = {
     "no-underscore-dangle": "off",
     "no-constant-condition": "off",
     "no-iterator": "off",
-    "no-restricted-syntax": ["off", "ForOfStatement"]
+    "no-restricted-syntax": ["off", "ForOfStatement"],
+    "implicit-arrow-linebreak": "off", // We don't want to enforce line break usage in arrow functions
   }
 }

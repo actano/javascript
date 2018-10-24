@@ -59,3 +59,11 @@ We want to use generators. eslint: [`no-iterator`](http://eslint.org/docs/rules/
 ### ForOfStatement
 
 `for .. of` loops provide an easy way to iterate through iterators. eslint: [`no-restricted-syntax`](http://eslint.org/docs/rules/no-restricted-syntax)
+
+### Arrow functions
+
+We want to not be forced how are writing our arrow function bodies. eslint: [`implicit-arrow-linebreak`](https://eslint.org/docs/rules/implicit-arrow-linebreak)
+
+### Destructoring props
+
+We don't want to be forced to always destructore props in React components. eslint: [`react/destructuring-assignment`](https://github.com/yannickcr/eslint-plugin-react/blob/24044e00c0b53e0a6ac939a3a05dfc643fb95adb/docs/rules/destructuring-assignment.md)
