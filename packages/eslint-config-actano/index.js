@@ -14,5 +14,8 @@ module.exports = {
     "no-restricted-syntax": ["off", "ForOfStatement"],
     "implicit-arrow-linebreak": "off", // We don't want to enforce line break usage in arrow functions
     "react/destructuring-assignment": "off", // We are perfectly fine with using props.myproperty in React components
+    "no-return-await": "off",
+    "import/prefer-default-export": "off",
+    "react/forbid-prop-types": ["error", { "forbid": ["any", "array"] }],
   }
 }

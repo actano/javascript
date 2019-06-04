@@ -13,5 +13,7 @@ module.exports = {
     "no-iterator": "off",
     "no-restricted-syntax": ["off", "ForOfStatement"],
     "implicit-arrow-linebreak": "off", // We don't want to enforce line break usage in arrow functions
+    "no-return-await": "off",
+    "import/prefer-default-export": "off",
   }
 }
