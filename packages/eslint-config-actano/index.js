@@ -5,6 +5,9 @@ module.exports = {
   "extends": [
     "eslint-config-airbnb"
   ].map(require.resolve),
+  "plugins": [
+    "react-hooks",
+  ],
   "rules": {
     "semi": ["error", "never"],
     "func-names": "off",
@@ -17,5 +20,7 @@ module.exports = {
     "no-return-await": "off",
     "import/prefer-default-export": "off",
     "react/forbid-prop-types": ["error", { "forbid": ["any", "array"] }],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "error",
   }
 }
