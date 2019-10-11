@@ -22,5 +22,6 @@ module.exports = {
     "react/forbid-prop-types": ["error", { "forbid": ["any", "array"] }],
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "error",
+    "react/jsx-one-expression-per-line": "off",
   }
 }
