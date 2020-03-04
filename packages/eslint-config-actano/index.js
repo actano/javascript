@@ -6,6 +6,7 @@ module.exports = {
     "eslint-config-airbnb"
   ].map(require.resolve),
   "plugins": [
+    "mocha-no-only",
     "react-hooks",
   ],
   "rules": {
@@ -22,5 +23,6 @@ module.exports = {
     "react/forbid-prop-types": ["error", { "forbid": ["any", "array"] }],
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "error",
+    "mocha-no-only/mocha-no-only": "error",
   }
 }
