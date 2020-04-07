@@ -19,5 +19,6 @@ module.exports = {
     "no-return-await": "off",
     "import/prefer-default-export": "off",
     "mocha-no-only/mocha-no-only": "error",
+    "arrow-parens": ["error", "as-needed", { "requireForBlockBody": true }],
   }
 }
