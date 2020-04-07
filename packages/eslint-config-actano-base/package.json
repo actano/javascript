@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-actano-base",
-  "version": "7.0.0-rc.1",
+  "version": "7.0.0-rc.2",
   "author": "Actano GmbH (https://rplan.com/)",
   "license": "MIT",
   "description": "Beautiful Javascript code at Actano",
