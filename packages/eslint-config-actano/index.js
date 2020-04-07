@@ -24,5 +24,6 @@ module.exports = {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "error",
     "mocha-no-only/mocha-no-only": "error",
+    "arrow-parens": ["error", "as-needed", { "requireForBlockBody": true }],
   }
 }
