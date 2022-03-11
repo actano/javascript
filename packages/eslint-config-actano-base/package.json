@@ -16,13 +16,13 @@
     "styleguide"
   ],
   "dependencies": {
-    "eslint-config-airbnb-base": "^14.1.0"
+    "eslint-config-airbnb-base": "^15.0.0"
   },
   "engines": {
     "node": ">= 4"
   },
   "peerDependencies": {
-    "eslint": "^5.16.0 || ^6.8.0",
+    "eslint": "^7.32.0 || ^8.2.0",
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-mocha-no-only": "^1.1.0"
   }
