@@ -24,7 +24,7 @@
   },
   "peerDependencies": {
     "eslint": "^8.9.0",
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-mocha-no-only": "^1.1.0"
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-mocha-no-only": "^1.1.1"
   }
 }
