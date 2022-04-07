@@ -11,6 +11,7 @@ module.exports = {
   "rules": {
     "semi": ["error", "never"],
     "func-names": "off",
+    "explicit-function-return-type": "off",
     "no-underscore-dangle": "off",
     "no-constant-condition": "off",
     "no-iterator": "off",

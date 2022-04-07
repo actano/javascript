@@ -16,6 +16,7 @@ module.exports = {
     "no-constant-condition": "off",
     "no-iterator": "off",
     "no-restricted-syntax": ["off", "ForOfStatement"],
+    "explicit-function-return-type": "off",
     "implicit-arrow-linebreak": "off", // We don't want to enforce line break usage in arrow functions
     "react/destructuring-assignment": "off", // We are perfectly fine with using props.myproperty in React components
     "no-return-await": "off",
@@ -25,5 +26,8 @@ module.exports = {
     "react-hooks/exhaustive-deps": "error",
     "mocha-no-only/mocha-no-only": "error",
     "arrow-parens": ["error", "as-needed", { "requireForBlockBody": true }],
+    // react
+    "react/function-component-definition": "off",
+    "react/require-default-props": "off",
   }
 }
