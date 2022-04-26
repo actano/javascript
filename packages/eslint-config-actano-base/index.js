@@ -9,6 +9,9 @@ module.exports = {
     "mocha-no-only",
   ],
   "rules": {
+    "function-paren-newline": "off",
+    "function-call-argument-newline": "off",
+    "prefer-regex-literals": "off",
     "semi": ["error", "never"],
     "func-names": "off",
     "explicit-function-return-type": "off",
