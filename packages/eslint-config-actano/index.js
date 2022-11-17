@@ -16,6 +16,9 @@ module.exports = {
     "no-constant-condition": "off",
     "no-iterator": "off",
     "no-restricted-syntax": ["off", "ForOfStatement"],
+    "no-restricted-imports": ["error", { "paths": [{
+      name: "assert", importNames: ["default"], message: "Please use a import { assert } from '@rplan/allex-type-helpers'"}
+      ]}],
     "explicit-function-return-type": "off",
     "implicit-arrow-linebreak": "off", // We don't want to enforce line break usage in arrow functions
     "no-return-await": "off",
