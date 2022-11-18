@@ -24,6 +24,9 @@ module.exports = {
     "import/prefer-default-export": "off",
     "mocha-no-only/mocha-no-only": "error",
     "arrow-parens": ["error", "as-needed", { "requireForBlockBody": true }],
-    "typescript-eslint/explicit-function-return-type": "off"
+    "typescript-eslint/explicit-function-return-type": "off",
+    "no-restricted-imports": ["error", { "paths": [{
+        name: "assert", importNames: ["default"], message: "Please use a import { assert } from '@rplan/allex-type-helpers'"}
+      ]}],
   }
 }
