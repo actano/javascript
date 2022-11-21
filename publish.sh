@@ -14,6 +14,7 @@ publish_new_version() (
   git tag "v$version-$package"
   echo Trying to publish. Please manually ensure if it worked. If you have no permission, ask someone who has
   npm publish
+  echo "Published version $version"
 )
 
 if [ ! -d $1 ] ; then usage ; exit 1 ; fi
