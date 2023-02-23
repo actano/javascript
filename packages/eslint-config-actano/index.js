@@ -21,6 +21,7 @@ module.exports = {
       ]}],
     "explicit-function-return-type": "off",
     "implicit-arrow-linebreak": "off", // We don't want to enforce line break usage in arrow functions
+    "function-paren-newline": "off",
     "no-return-await": "off",
     "import/prefer-default-export": "off",
     "mocha-no-only/mocha-no-only": "error",
