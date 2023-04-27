@@ -12,6 +12,7 @@ module.exports = {
     "function-paren-newline": "off",
     "function-call-argument-newline": "off",
     "prefer-regex-literals": "off",
+    "no-continue": "off",
     "semi": ["error", "never"],
     "func-names": "off",
     "explicit-function-return-type": "off",
