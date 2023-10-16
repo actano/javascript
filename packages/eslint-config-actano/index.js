@@ -10,6 +10,7 @@ module.exports = {
     "react-hooks",
   ],
   "rules": {
+    "prefer-regex-literals": "off",
     "semi": ["error", "never"],
     "func-names": "off",
     "no-underscore-dangle": "off",
