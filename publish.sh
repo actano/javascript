@@ -1,7 +1,7 @@
 # set -e
 
 usage() (
-  echo 'Usage: ./publish.sh <package> <sem_ver>'
+  echo 'Usage: ./publish.sh <package> <minor|patch>'
   echo 'Example: ./publish.sh packages/eslint-config-actano minor'
 )
 
