@@ -10,10 +10,10 @@ module.exports = {
   ],
   "rules": {
     "prefer-regex-literals": "off",
+    "prefer-arrow-callback": "off",
     "no-await-in-loop": "off",
     "function-paren-newline": "off",
     "function-call-argument-newline": "off",
-    "prefer-regex-literals": "off",
     "no-continue": "off",
     "semi": ["error", "never"],
     "func-names": "off",
