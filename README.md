@@ -1,3 +1,8 @@
+![Allex](https://img.shields.io/badge/Allex-7495FE?style=for-the-badge)
+![Responsible: R&D](https://img.shields.io/badge/Responsible-R%26D--Team-ffd700?style=for-the-badge)
+
+> Responsible: #research-and-development
+
 # Actano Javascript Style Guide
 
 This repository contains two Javascript style guides:
