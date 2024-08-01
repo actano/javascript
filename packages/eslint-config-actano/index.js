@@ -3,30 +3,20 @@ module.exports = {
     "browser": true
   },
   "extends": [
-    "eslint-config-airbnb"
+    "eslint-config-airbnb",
+    "eslint-config-actano-base",
   ].map(require.resolve),
   "plugins": [
     "mocha-no-only",
     "react-hooks",
   ],
   "rules": {
-    "prefer-regex-literals": "off",
-    "semi": ["error", "never"],
-    "func-names": "off",
     "no-underscore-dangle": "off",
     "no-constant-condition": "off",
     "no-iterator": "off",
-    "no-restricted-syntax": ["off", "ForOfStatement"],
     "no-restricted-imports": ["error", { "paths": [{
       name: "assert", importNames: ["default"], message: "Please use a import { assert } from '@rplan/allex-type-helpers'"}
       ]}],
-    "explicit-function-return-type": "off",
-    "implicit-arrow-linebreak": "off", // We don't want to enforce line break usage in arrow functions
-    "function-paren-newline": "off",
-    "no-return-await": "off",
-    "import/prefer-default-export": "off",
-    "mocha-no-only/mocha-no-only": "error",
-    "arrow-parens": ["error", "as-needed", { "requireForBlockBody": true }],
     // react
     "react/function-component-definition": "off",
     "react/require-default-props": "off",
