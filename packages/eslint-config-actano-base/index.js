@@ -9,6 +9,7 @@ module.exports = {
     "mocha-no-only",
   ],
   "rules": {
+    "no-plusplus": "off",
     "prefer-regex-literals": "off",
     "prefer-arrow-callback": "off",
     "no-await-in-loop": "off",
