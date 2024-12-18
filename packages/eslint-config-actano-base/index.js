@@ -26,9 +26,14 @@ module.exports = {
     "implicit-arrow-linebreak": "off", // We don't want to enforce line break usage in arrow functions
     "no-return-await": "off",
     "import/prefer-default-export": "off",
+    "import/extensions": ['error', { extensions: ['.js', '.ts']}],
+    "import/no-extraneous-dependencies": [
+      'error', { devDependencies: ['.js', '.ts']}
+    ],
     "mocha-no-only/mocha-no-only": "error",
     "arrow-parens": ["error", "as-needed", { "requireForBlockBody": true }],
     "typescript-eslint/explicit-function-return-type": "off",
+    "no-unused-vars": "warn",
     "no-restricted-imports": ["error", { "paths": [{
         name: "assert", importNames: ["default"], message: "Please use a import { assert } from '@rplan/allex-type-helpers'"}
       ]}],
