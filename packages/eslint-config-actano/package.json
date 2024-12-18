@@ -16,7 +16,7 @@
     "styleguide"
   ],
   "dependencies": {
-    "eslint-config-actano-base": "^8.3.1",
+    "eslint-config-actano-base": "^8.5.0",
     "eslint-config-airbnb": "^19.0.4"
   },
   "engines": {
